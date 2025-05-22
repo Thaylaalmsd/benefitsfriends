@@ -1,94 +1,132 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VIP Invitation - Exclusive Dating</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>You stopped scrolling… Now I own your attention</title>
 
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-W7YCGPX9TT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-W7YCGPX9TT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-W7YCGPX9TT');
+  </script>
 
-  gtag('config', 'G-W7YCGPX9TT');
-</script>
-    
-    <style>
-        /* Estilos da página */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-size: cover;
-            background-position: center;
-            color: white;
-            text-align: center;
-        }
-        .landing-container {
-            background: rgba(0, 0, 0, 0.7); /* Fundo escuro semi-transparente */
-            padding: 30px;
-            border-radius: 10px;
-            max-width: 800px;
-        }
-        h1 {
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-        p {
-            font-size: 18px;
-            margin-bottom: 30px;
-        }
-        .cta-button {
-            background-color: #ff0000;
-            color: white;
-            padding: 15px 30px;
-            font-size: 18px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-        .cta-button:hover {
-            background-color: #cc0000;
-        }
-    </style>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+      overflow: hidden;
+    }
+
+    .background {
+      background-image: url('https://cdn.sex.com/images/pinporn/2019/08/06/21597966.jpg?width=460');
+      background-size: cover;
+      background-position: center;
+      filter: blur(10px);
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      z-index: -2;
+    }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.3);
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+    }
+
+    .content {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      text-shadow: 1px 1px 4px #000;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+      max-width: 500px;
+      text-shadow: 1px 1px 3px #000;
+    }
+
+    .cta-button {
+      background: #c60000;
+      color: white;
+      padding: 16px 32px;
+      border: none;
+      border-radius: 50px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.2s;
+      box-shadow: 0 0 20px rgba(198, 0, 0, 0.5);
+    }
+
+    .cta-button:hover {
+      background: #ff1f1f;
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 1.6rem; }
+      p { font-size: 1rem; }
+      .cta-button {
+        width: 90%;
+        padding: 14px;
+      }
+    }
+  </style>
 </head>
-<body id="page-body">
+<body>
+  <div class="background"></div>
+  <div class="overlay"></div>
 
-    <div class="landing-container">
-        <h1 id="title">🔥 VIP Invitation: Meet Exclusive Singles Today!</h1> <!-- Título -->
-        <p id="paragraph">Your invitation is waiting! Unlock exclusive profiles and start chatting now. Just confirm your email!</p> <!-- Parágrafo -->
-        <button class="cta-button" id="cta-button" onclick="redirectUser()">Start Now – Meet Singles! 💖</button> <!-- Botão -->
-    </div>
+  <div class="content">
+    <h1>You stopped scrolling… Now I own your attention.</h1>
+    <p>I teased you on Twitter for a reason. This is where it gets real — uncensored, unfiltered, and just for you.</p>
+    <button class="cta-button" onclick="redirectUser()">UNLOCK MY PRIVATE SIDE – 18+</button>
+  </div>
 
-    <script>
-        // === CONFIGURAÇÕES ===
-        var backgroundImage = "https://image.tensorartassets.com/cdn-cgi/image/anim=true,plain=false,w=2048,f=jpeg,q=85/model_showcase/711657475419648310/754b95fb-c884-191d-045a-28edb4d81ff7.png"; // Atualize com a nova imagem
-        
-        var offerUSA = "https://t.slext2.com/212319/8517/0"; 
-        var smartlink = "https://bggcdje.pixls.one/p/ye6cD"; 
-        
-        document.getElementById("page-body").style.backgroundImage = "url('" + backgroundImage + "')";
-
-        // === FUNÇÃO PARA REDIRECIONAMENTO ===
-        async function redirectUser() {
-            try {
-                let response = await fetch('https://ipinfo.io/json?token=54e5b8714e7b86');
-                let data = await response.json();
-                let country = data.country; 
-
-                window.location.href = (country === "US") ? offerUSA : smartlink;
-            } catch (error) {
-                console.error("Erro ao obter localização:", error);
-                window.location.href = smartlink; // Fallback
-            }
-        }
-    </script>
+  <script>
+    function redirectUser() {
+      fetch("https://ipapi.co/json/")
+        .then(response => response.json())
+        .then(data => {
+          const country = data.country;
+          if (country === "US") {
+            window.location.href = "https://t.slext2.com/212319/8517/0?bo=2753,2754,2755,2756&po=6456&aff_sub5=SF_006OG000004lmDN";
+          } else {
+            window.location.href = "https://bggcdje.postsmrtofr.com/s/63dc27b8c8606";
+          }
+        })
+        .catch(() => {
+          window.location.href = "https://bggcdje.postsmrtofr.com/s/63dc27b8c8606";
+        });
+    }
+  </script>
 </body>
 </html>
